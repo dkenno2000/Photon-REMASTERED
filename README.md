@@ -88,6 +88,8 @@ Change the path to point where your /node/modules/ folder is:
 - Install from the Chrome Web Store: Link above
 - Install locally: Manage Extensions -> Enable Developer Mode -> Load Unpacked -> Select the unzipped folder
 
+Don't contact me about any feature requests or bugs, no one uses Photon anymore.
+
 <h2 id="contribute">⚠️ License</h2>
 
 Released under the GPL-3 license. Use as you please, but give credit where credit is due.
