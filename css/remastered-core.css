@@ -1,0 +1,920 @@
+/*******************************************/
+/*************** PHOTON FIXES **************/
+/*******************************************/
+
+/* widgets margins */
+.p-show__widget {
+  box-shadow: 0 0 3px 0px rgba(205, 205, 205, 0.12);
+  margin: 3px !important;
+}
+
+/* header wallet dropdown */
+.c-dropdown__popup.js-dropdown__popup.c-dropdown__popup--right {
+  z-index: 9999 !important;
+}
+
+/* search field */
+.c-autocomplete_wrapper>input {
+    border-radius: 8px !important;
+    height: 36px !important;
+}
+
+/* watching tokens */
+.l-row.u-flex-nowrap.js-watching-list a {
+    text-shadow: 0 0 1px #8E9DFF44 !important;
+}
+
+/* all buttons */
+.c-btn {
+    border-radius: 8px !important;
+}
+
+/* copied token in header */
+.c-header__cb.js-header__cb.u-mr-s {
+    order: -1 !important;
+}
+
+
+/***************** MEMESCOPE ***************/
+
+.c-body .p-dashboard__title,
+.c-body .p-dashboard__subtitle {
+    display: none !important;
+}
+
+/* height fix */
+.Q_H0B8aMnzXuRM9bV30R {
+  height: 100% !important;
+}
+
+/* sidebar height fix */
+.page-memescope:has(.p-show__topbar.is-hidden) .DHjbkb4aXerA1tSInWBf {
+    height: 86vh !important;
+}
+
+/* filters buttons */
+.IkXVawB0ALMCnMdJvOFY .c-btn.c-btn--transparent {
+  background: none;
+  font-size: 0;
+  border: none;
+}
+
+/* pump card hover effect */
+.VTmpJ0jdbJuSJQ4HKGlN:nth-child(1n) {
+  border: 1px solid rgba(150, 150, 150, 0.15);
+  transition: 0.15s ease;
+}
+
+.VTmpJ0jdbJuSJQ4HKGlN:nth-child(1n):hover {
+  border: 1px solid rgba(79, 238, 228, 0.3);
+  transition: 0s;
+}
+
+/* pump card market cap text */
+.jMpe8Ggoy2BTlQ_ucmIW { text-shadow: 0 0 1px #e7b58755 !important; }
+.ANPgkql_oEpaeul6G8le { text-shadow: 0 0 1px #7cddff55 !important; }
+._4US0LUEjNas3JzkSpuPk { text-shadow: 0 0 1px #50d7b055 !important; }
+
+/* go to top button */
+.LhcikusUx56d_P93URE9,
+.c-arrow-up.js-arrow-up {
+  display: none !important;
+}
+
+/* footer */
+.Qda11o5PHiK1tiad3t3i {
+  display: none !important;
+}
+
+
+/****************** TERMINAL ***************/
+
+/* coin header border */
+.p-show__bar,
+.c-tview-handle::after {
+  border-bottom: none !important;
+}
+
+/* watch token button */
+.p-show__watch {
+    border-radius: 8px !important;
+}
+
+/* shrimp icons */
+.u-pointer.c-icon.c-icon--xs.u-mr-3xs {
+  filter: grayscale(60%);
+  scale: 0.7;
+}
+
+
+/**************** RIGHT MENU ***************/
+
+/* right menu container */
+.p-show__sb.u-px-0-lg.u-px-s {
+  display: grid;
+}
+
+
+/************* BUY/SELL WIDGET *************/
+
+.u-d-none.u-d-block-lg.p-show__widget.js-tabs.js-show__trade-tabs.u-p-0 {
+  order: 1 !important;
+  margin-top: 0px;
+  margin-bottom: 8px !important;
+}
+
+/* order type radio buttons */
+.l-row.l-row-gap--s.c-w-form__radio-group,
+.l-row.l-row-gap--xxs.c-w-form__radio-group {
+  .l-col-auto {
+    cursor: default !important;
+    label {
+      cursor: pointer !important;
+    }
+  }
+}
+
+/* buy/sell widget footer */
+.c-w-form__footer.u-mt-xs.js-show__snipe__el.u-font-size-zh-xxs,
+.c-w-form__footer.u-mt-xs.u-font-size-zh-xxs {
+  display: none !important;
+}
+
+
+/************ COIN INFO WIDGET *************/
+
+.p-show__widget.p-show__pair.u-py-s-lg {
+  order: 2 !important;
+  margin-bottom: 8px !important;
+}
+
+/* token name  */
+.token-full-name {
+  padding-top: 4px !important;
+}
+
+/* copy ca button */
+.p-show__pair__title .l-col-auto {
+    scale: 0.85;
+}
+
+.p-show__widget.p-show__pair.u-py-s-lg .c-icon.c-icon--solscan.c-task-table__icon {
+    scale: 1 !important;
+}
+
+/* token name  */
+#token-description {
+  color: #b5b7da;
+  font-size: 14px;
+}
+
+/* verify profile link & x search button */
+.p-show__pair__label,
+.p-show__pair__title .l-col-auto:nth-child(5) {
+  display: none;
+}
+
+/* social links */
+.c-social-dd.u-mt-xs.js-social-dd.u-mb-xs {
+  display: none !important;
+}
+
+.c-social-dd__icons.js-social-dd__icons {
+  scale: 1.05;
+  border-left: none;
+  padding-top: 8px;
+  padding-bottom: 6px;
+  justify-content: center;
+  gap: 2px !important;
+  .c-social-dd__btn {
+    background: none;
+    transition: ease 0.3s;
+  }
+  [data-icon="pump-grey"] {
+    filter: sepia(1) hue-rotate(190deg);
+  }
+  .c-social-dd__btn:hover,
+  .c-icon--pump-grey:hover {
+    color: #fff;
+    filter: brightness(200%);
+    transition: ease 0.3s;
+  }
+}
+
+hr.u-mb-xs-lg.u-mb-xs.u-mt-xs-lg.u-mt-xxs,
+hr.u-my-xs-lg.u-mb-xxs.u-mt-xxs {
+  margin-bottom: 0.5rem !important;
+  margin-top: 0.5rem !important;
+}
+
+/* coin info tab: supply, market cap, liquidity,... */
+.p-show__widget__td__label {
+  font-size: 10px !important;
+}
+
+.p-show__widget__td__value {
+  font-size: 11px !important;
+  color: #ddd !important;
+}
+
+
+/*********** BONDING CURVE WIDGET ***********/
+
+.u-d-none.u-d-block-lg.p-show__widget.u-py-s.u-px-s {
+  order: 3;
+  margin-bottom: 8px !important;
+}
+
+
+/************* INTERVALS WIDGET ************/
+
+.p-show__widget.p-show__info.u-p-0.u-mb-xs.u-mb-0-lg {
+  order: 4 !important;
+  margin-bottom: 8px !important;
+  overflow: hidden;
+  .c-info__percentage {
+    padding-top: 5px !important;
+    font-size: 11px !important;
+  }
+  .c-info__cell__value {
+    font-size: 11px !important;
+    color: #ddd !important;
+  }
+}
+
+
+/********** DATA & SECURITY WIDGET **********/
+
+.u-d-none.u-d-block-lg.p-show__widget.u-p-0.js-buy-section {
+  order: 5 !important;
+}
+
+.p-show__collapsible__content.js-security-widget .p-show__widget__list {
+  .p-show__widget__list__item:has([data-kind="deployer"]),
+  .p-show__widget__list__item:has([data-kind="ca_deployer"]),
+  .p-show__widget__list__item:has([data-kind="lp_deployer"]),
+  .p-show__widget__list__item:has([data-kind="top_holders_perc"]),
+  .p-show__widget__list__item:has([data-kind="open_timestamp"]) {
+    display: none !important;
+  }
+}
+
+
+/************* QUICK SWAP POPUP *************/
+
+.c-modal__content.ui-draggable
+  .c-modal__header.u-pt-m.u-d-flex.u-justify-content-between.c-fpf__header,
+.c-modal__content.ui-draggable .c-dropdown.js-dropdown.js-wdd.c-wdd,
+.c-modal__content.ui-draggable .c-fpf__subtitle {
+  display: none !important;
+}
+
+.js-fpf__handle.u-pointer.ui-draggable-handle {
+  padding-bottom: 20px !important;
+  user-select: none !important;
+}
+
+.c-modal__content.u-px-m.u-pt-0.u-pb-m.js-fpf-popup.hide-m.c-fpf__container.ui-draggable,
+.c-fpf__container.ui-draggable-dragging {
+  background: none !important;
+  opacity: 1 !important;
+  backdrop-filter: blur(7px) !important;
+    background: #181920c2 !important;
+  background-image: linear-gradient(
+    170deg,
+    rgba(80, 80, 90, 0.15) -40%,
+    rgba(110, 120, 135, 0) 60%
+  ) !important;
+  border: 1px solid #ffffff1f !important;
+  box-shadow: 0 0 24px 4px rgba(50, 65, 110, 0.35) !important;
+}
+
+
+/*******************************************/
+/**************** REMASTERED ***************/
+/*******************************************/
+
+/**************** PUMP IMAGE ***************/
+
+.pump-modal {
+  position: fixed;
+  z-index: 9999;
+  margin: auto;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  backdrop-filter: blur(4px);
+}
+
+.pump-modal.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.pump-modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.pump-modal-content {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.pump-image-container img {
+  filter: saturate(50%) !important;
+  transition: ease 0.5s !important;
+  margin: auto !important;
+  display: block !important;
+  width: 84% !important;
+  padding: 2px !important;
+  border-radius: 8px;
+  padding-bottom: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 4px 0px rgba(255, 255, 255, 0.1);
+}
+
+.pump-image-container {
+  padding-top: 8px;
+}
+
+.pump-image-container img:hover {
+  filter: saturate(100%) !important;
+  transition: ease 0.5s !important;
+  cursor: pointer !important;
+}
+
+img#pump-imgZoom {
+  margin: auto;
+  display: block;
+  max-width: 850px;
+  border-radius: 20px;
+}
+
+/*********** PUMP DESCRIPTION ***********/
+
+#pumpfun-desc-title {
+  margin-bottom: 12px;
+  display: block;
+  text-align: center;
+}
+
+.pumpfun-coin-description {
+    display: block;
+    margin-top: 15px !important;
+    font-size: 13px !important;
+    color: #8D93B7;
+    line-height: 1.25rem;
+    width: 279px;
+    word-wrap: break-word;
+}
+
+
+/*************** X SEARCH ***************/
+
+#x-search-ca a svg, #x-search-name a svg {
+  fill: #8d93b7 !important;
+  width: 18px;
+    margin-top: 3px;
+}
+
+
+/************ TOP 10 PERCENTAGE ***********/
+
+.top-ten-container {
+  display: flex;
+  margin-top: 22px;
+  margin-bottom: 20px;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.04);
+  padding: 10px;
+  margin-left: 18px;
+  margin-right: 18px;
+  border-radius: 8px;
+  border: 1px solid #55555555;
+}
+
+.top-ten-holders-perc {
+  color: #8d93b7;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+
+/**************** DEX HEADER ***************/
+
+#dex-widget-header {
+  margin-bottom: 12px;
+}
+
+.dex-header-banner {
+  margin-top: 12px;
+  text-align: center;
+  color: #b5b7da;
+  padding-bottom: 16px;
+  span {
+    margin-top: 12px;
+    display: inline-block;
+  }
+}
+
+#dex-banner-img {
+  margin-top: 4px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 4px 0px rgba(255, 255, 255, 0.15);
+  cursor: pointer;
+  filter: saturate(50%);
+  transition: ease 0.5s;
+}
+
+#dex-banner-img:hover {
+  filter: saturate(100%);
+  transition: ease 0.5s;
+}
+
+
+/************** DEX PAID STATUS *************/
+
+.is-dex-paid {
+  margin-top: 16px;
+  height: 34px !important;
+  border-radius: 6px !important;
+  border: 1px solid #3ed6cc99;
+  background: #3ed6cc1a !important;
+  box-shadow: 0 0 4px 1px #3ed6cc55 !important;
+  color: #3ED6CC !important;
+  transition: 0.3s ease;
+  display: none;
+}
+
+.is-dex-paid:hover {
+  filter: brightness(1.12);
+  transition: 0.3s ease;
+}
+
+.is-dex-paid span {
+  font-weight: 700 !important;
+  font-family: VT323, monospace;
+  font-size: 15px !important;
+  color: rgb(62, 214, 204) !important;
+  margin-top: 7px !important;
+}
+
+#dex-is-paid {
+  margin-top: 6px;
+  font-size: 13px;
+  text-shadow: 0px 0px 4px #000 !important;
+}
+
+
+/************** RUG CHECK STATUS ************/
+
+.rug-container {
+  border-radius: 8px;
+  font-family: monospace;
+  margin-bottom: 32px;
+}
+
+span.p-show__widget__td__label.u-font-size-zh-xxs#rugcheck-title {
+    display: block;
+    text-align: center;
+    padding-top: 6px;
+    margin-bottom: 16px;
+}
+
+.rug-warn-level {
+  font-family: VT323, monospace;
+  border: 1px solid #ff8c0077;
+  background: #ff8c0011;
+  height: 34px;
+  align-content: center;
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: 700;
+  display: block;
+  border-radius: 6px;
+}
+
+.rug-header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-size: 11px;
+  margin-top: 20px;
+  margin-bottom: 12px;
+  color: rgb(181, 183, 218);
+  display: none !important;
+}
+
+.risk-header a:hover {
+    filter: brightness(1.12);
+    transition: 0.3s ease;
+}
+
+.risk-header a {
+    transition: 0.3s ease;
+}
+
+.rug-risk-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #8d93b755 !important;
+  background: rgba(255, 255, 255, 0.04) !important;
+  padding: 6px;
+  margin-top: 12px;
+  border-radius: 6px;
+  font-size: 11px;
+  filter: saturate(0.9);
+}
+
+#rug-level-Good {
+    border-color: #3ed6cc99 !important;
+    background: #3ed6cc1a !important;
+    box-shadow: 0 0 4px 1px #3ed6cc55 !important;
+    color: #3ED6CC !important;
+    text-shadow: 0px 0px 4px #000 !important;
+}
+
+#rug-level-Warning {
+    border-color: #d6c83f99 !important;
+    background: #d6c83f1a !important;
+    box-shadow: 0 0 4px 1px #d6c83f55 !important;
+    color: #d6c83f !important;
+    text-shadow: 0px 0px 4px #000 !important;
+}
+
+#rug-level-Danger {
+    border-color: #f15a5a99 !important;
+    background: #f15a5a1a !important;
+    box-shadow: 0 0 4px 1px #f15a5a55 !important;
+    color: #d63f3f !important;
+    text-shadow: 0px 0px 4px #000 !important;
+}
+
+.risk-item {
+    opacity: 0.66;
+    transition: 0.3s ease;
+}
+.risk-item:hover {
+    opacity: 1;
+    transition: 0.3s ease;
+}
+
+.risk-item svg {
+    width: 12px;
+    height: 12px;
+}
+
+.rug-risk-items {
+    border: none !important;
+    padding-left: 8px;
+    padding-right: 8px;
+    cursor: default;
+}
+
+.rug-risk-items#Good {
+    background: #3ed6cc08 !important;
+    box-shadow: 0 0 1px 1px #3ed6cc88 !important;
+    color: #3ED6CCdd !important;
+}
+
+.rug-risk-items#Warning {
+    background: #d6c83f08 !important;
+    box-shadow: 0 0 1px 1px #d6c83f88 !important;
+    color: #d6c83fdd !important;
+}
+
+.rug-risk-items#Danger {
+    background: #f15a5a08 !important;
+    box-shadow: 0 0 1px 1px #f15a5a88 !important;
+    color: #f15a5add !important;
+}
+
+.rug-risk-items span {
+    filter: brightness(2);
+}
+
+
+/*********** TOP 100 HOLDERS CHARTS **********/
+
+.holders-popup1 {
+  width: 325px;
+  height: 385px;
+  position: absolute;
+  z-index: 999;
+  right: 85px;
+  margin-top: -398px !important;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  text-align: center;
+  padding-top: 18px;
+  backdrop-filter: blur(6px);
+  background: rgb(25 25 34 / 60%);
+  box-shadow: rgba(40, 40, 50, 0.66) 0px 0px 26px 4px;
+}
+
+.holders-popup2 {
+  width: 325px;
+  height: 385px;
+  position: absolute;
+  z-index: 999;
+  right: 47px;
+  margin-top: -398px !important;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  text-align: center;
+  padding-top: 18px;
+  backdrop-filter: blur(6px);
+  background: rgb(25 25 34 / 60%);
+  box-shadow: rgba(40, 40, 50, 0.66) 0px 0px 26px 4px;
+}
+
+#holders-popup-container1,
+#holders-popup-container2 {
+  opacity: 0;
+  transition: opacity 0.2s ease-in;
+}
+
+#holders-popup-container1.show,
+#holders-popup-container2.show {
+  opacity: 1;
+}
+
+#holders-svg-button1 svg,
+#holders-svg-button2 svg {
+  scale: 1.5;
+  height: 24px;
+  cursor: pointer !important;
+}
+
+.svgBtn-disabled#holders-svg-button1,
+.svgBtn-disabled#holders-svg-button2 {
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+#holders-svg-button1,
+#holders-svg-button2 {
+  transition: opacity 0.1s ease-in;
+  pointer-events: auto;
+}
+
+#holders-svg-button1 svg path,
+#holders-svg-button2 svg path {
+  transition: ease 0.5s;
+}
+
+span.top-100-holders-title {
+  font-size: 13px;
+  text-transform: capitalize;
+  color: #b5b7da;
+}
+
+#holders-chartdiv1,
+#holders-chartdiv2 {
+  width: 100%;
+  height: 350px;
+}
+
+.holders-tooltip {
+  display: none;
+  position: absolute;
+  background-color: #000;
+  color: #fff;
+  padding: 11px;
+  border-radius: 10px;
+  font-size: 12px;
+  z-index: 1000;
+  margin-bottom: 20px;
+  margin-top: -67px;
+  margin-left: -70px;
+}
+
+.c-trades-table__td,
+.c-trades-table__th {
+  padding-left: 0px !important;
+}
+
+
+/************* HOLDERS SOL BALANCE ***********/
+
+[data-table-id="holders"] .c-grid-table__head,
+[data-table-id="holders"] .c-grid-table__tr {
+  grid-template-columns:
+    minmax(22%, 0.5fr) minmax(25%, 1fr) minmax(15%, 1fr) minmax(15%, 1fr) minmax(15%, 1fr) 50px !important;
+}
+
+span.holders-sol-balance {
+  color: #999;
+}
+
+.holders-usd-balance {
+    font-size: 12px;
+    color: #8D93B7;
+    margin-left: 5px;
+}
+
+#top-holders-container {
+  order: 2 !important;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 0px;
+  display: flex;
+  height: 31px;
+}
+
+#top-holders-container.show {
+  opacity: 1;
+}
+
+/* holders chart button */
+.p-show__widget--table:has([data-table-id="holders"]) .u-mb-m {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+#holders-svg-button1 {
+  order: 2 !important;
+  aborder: 1px solid rgba(255, 255, 255, 0.15);
+  aborder-radius: 100px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 2px;
+  display: flex;
+  height: 32px;
+}
+
+#holders-svg-button2 {
+  order: 3 !important;
+  aborder: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 100px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 2px;
+  display: flex;
+  height: 32px;
+}
+
+span#svg-buttons {
+  padding-left: 12px;
+  line-height: 32px;
+}
+
+#svg-holder-button {
+  padding: 6px;
+  padding-left: 10px;
+}
+
+
+/***************** DEV PROFILE ***************/
+
+#pump-logo-dev-profile,
+#solscan-dev-profile {
+  height: 13px;
+  margin-left: 10px;
+  scale: 1.2;
+  transition: ease 0.3s;
+}
+#pump-logo-dev-profile:hover,
+#solscan-dev-profile:hover {
+  scale: 1.4;
+  transition: ease 0.2s;
+}
+
+
+/************** SOL PRICE & CHART *************/
+
+.font-sol {
+  font-size: 11px;
+  padding-right: 15px;
+  color: rgb(150, 150, 190);
+}
+
+.solChart {
+  width: 62px;
+  height: 30px;
+  overflow: hidden;
+  position: relative;
+  transition: 0.8s ease;
+}
+
+.solChart:hover {
+    filter: brightness(1.15);
+    transition: 0.4s ease;
+}
+
+
+/************ TOP TRADERS CIELO LINK ***********/
+
+.top-trader-profile-links {
+  display: flex;
+}
+
+.top-trader-profile-links svg {
+  height: 20px;
+  margin-left: 3px;
+}
+
+
+/************** KEYBOARD SHORTCUTS ************/
+
+.toggle-keyboard-shortcuts {
+  height: 30px;
+  cursor: pointer;
+  user-select: none;
+  padding-right: 16px;
+}
+
+.toggle-keyboard-shortcuts#keys-enabled .keyboard-shortcuts {
+  border-radius: 12px;
+  padding: 0 10px;
+  transition: box-shadow 0.3s ease-in-out, background 0.3s ease-in-out;
+  svg {
+    fill: #8e9dff !important;
+    transition: fill 0.3s ease-in-out;
+    transition: filter 0.3s ease-in-out;
+    /*filter: drop-shadow(0px 0px 4px #8E9DFF99);*/
+  }
+}
+
+.toggle-keyboard-shortcuts#keys-disabled .keyboard-shortcuts {
+  border-radius: 12px;
+  padding: 0 10px;
+  transition: box-shadow 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+.keyboard-shortcuts {
+  height: 100%;
+  svg {
+    width: 42px;
+    scale: 0.9;
+    fill: #b5b7da;
+    transition: fill 0.3s ease-in-out;
+  }
+}
+
+#keys-disabled .keyboard-shortcuts:hover {
+  transition: border 0.1s ease-in-out;
+}
+
+.u-d-none.u-d-block-lg.p-show__widget.js-tabs.js-show__trade-tabs.u-p-0#keyboard-ENABLED:has(.p-show__widget__tab.js-tabs__tab.is-selected[data-tab-id="buy"]) {
+  box-shadow: 0 0 8px 3px #8e9dff;
+  background: #8e9dff11;
+  transition: background 0.4s ease-in-out, box-shadow 0.4s ease-in-out !important;
+  z-index: 200;
+}
+
+.u-d-none.u-d-block-lg.p-show__widget.js-tabs.js-show__trade-tabs.u-p-0#keyboard-ENABLED:has(.p-show__widget__tab.js-tabs__tab.is-selected[data-tab-id="sell"])
+{
+    box-shadow: #c595ee 0px 0px 8px 3px;
+    z-index: 200;
+    background: rgba(142, 157, 255, 0.067);
+    transition: background 0.4s ease-in-out, box-shadow 0.4s ease-in-out !important;
+}
+
+.u-d-none.u-d-block-lg.p-show__widget.js-tabs.js-show__trade-tabs.u-p-0#keyboard-DISABLED {
+  box-shadow: none;
+  transition: background 0.4s ease-in-out, box-shadow 0.4s ease-in-out !important;
+  z-index: 1;
+}
+
+
+/**************** TOOLTIP POPUP ***************/
+
+.remastered-tooltip {
+  display: none;
+  position: absolute;
+  background-color: #111;
+  box-shadow: 0 0 4px 0px #111;
+  color: #fff;
+  padding: 11px;
+  border-radius: 10px;
+  font-size: 12px;
+  z-index: 1000;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: -70px;
+  opacity: 0;
+
+  animation-name: supply_bundle-fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.1s;
+}

@@ -1,0 +1,299 @@
+/*******************************************/
+/************** DEFAULT THEME **************/
+/*******************************************/
+
+html {
+  scrollbar-color: #555 #111 !important;
+  scrollbar-width: thin !important;
+}
+
+body * {
+  scrollbar-color: #555 #22222222 !important;
+  scrollbar-width: thin !important;
+}
+
+:root {
+  --PURPLE-ORIG: #6a60e8; /* original purple */
+  --COLOR1: #8278ff; /* modern purple/blue */
+  --COLOR2: #845aa8; /* modern purple/red - used instead of red gradient */
+
+  --BLUE1: #8278ff;
+  --GRADBLUE1: #8278ff;
+  --GRADBLUE2: #453da7;
+  --GRADBLUE3: #453da700;
+
+  --RED1: #6a60e8;
+  --GRADRED1: rgba(170, 79, 73, 0.5);
+  --GRADRED2: rgba(170, 79, 73, 0.1);
+  --GRADRED3: rgba(11, 10, 10, 0.75);
+
+  --GREEN-TEXT: #FFCAD6;
+  --RED-TEXT: #BAFFFA;
+}
+
+html { filter: contrast(1.03); }
+.c-header__inner.js-login-wrapper { backdrop-filter: none !important; }
+
+/**************** MEMESCOPE ****************/
+
+/* pump cards */
+.VTmpJ0jdbJuSJQ4HKGlN:nth-child(1n) {
+    border: 1px solid rgba(150,150,150,0.15);
+    transition: 0.2s ease;
+}
+
+.VTmpJ0jdbJuSJQ4HKGlN:nth-child(1n):hover {
+    border: 1px solid rgba(79, 238, 228, 0.3);
+    transition: 0s;
+}
+
+/* preset select buttons */
+.c-inline-toggle {
+    background: none !important;
+}
+
+
+/*******************************************/
+/***************** TERMINAL ****************/
+/*******************************************/
+
+/**************** RIGHT MENU ***************/
+
+/* BUY tab button */
+.js-tabs__tab.is-selected[data-tab-id="buy"],
+button.js-show__trade-form__submit.js-buy-btn,
+button.js-show__buy-order__submit {
+  background: var(--BLUE1);
+  abackground: linear-gradient(180deg, #8278ff 0%, #453da7 100%) !important;
+  background-image: linear-gradient(
+    170deg,
+    var(--GRADBLUE1),
+    var(--GRADBLUE2) 98%,
+    var(--GRADBLUE3)
+  );
+  border-radius: 8px 0 0 0;
+  transition: 0.4s;
+}
+
+.p-show__widget__tab.js-tabs__tab:not(.is-selected)[data-tab-id="buy"],
+.c-icon.c-icon--tag.p-show__widget__tab__icon {
+  color: #a9b0d7;
+  transition: 0.3s ease;
+}
+
+button.js-show__trade-form__submit.js-buy-btn {
+  height: 40px;
+  border-radius: 6px !important;
+}
+
+/* SELL button */
+.js-tabs__tab.is-selected[data-tab-id="sell"],
+button.js-show__trade-form__submit.js-sell-btn,
+button.js-show__sell-order__submit {
+  background: var(--RED1);
+  background-image: linear-gradient(
+    170deg,
+    var(--GRADRED1),
+    var(--GRADRED2) 98%,
+    var(--GRADRED3)
+  );
+  border-radius: 0 8px 0 0;
+  transition: 0.4s;
+}
+
+.p-show__widget__tab.js-tabs__tab:not(.is-selected)[data-tab-id="sell"],
+.c-icon.c-icon--tag.p-show__widget__tab__icon {
+  color: #a9b0d7;
+  transition: 0.3s ease;
+}
+
+button.js-show__trade-form__submit.js-sell-btn {
+  height: 40px;
+  border-radius: 6px !important;
+}
+
+/* order select radio buttons */
+.l-row.l-row-gap--s.c-w-form__radio-group,
+.l-row.l-row-gap--xxs.c-w-form__radio-group {
+  padding: 6px 0 6px 0;
+  .l-col-auto {
+    cursor: default !important;
+    label {
+      cursor: pointer !important;
+      padding: 4px 0 4px 0;
+      .c-checkbox__inner.c-checkbox__inner--rounded {
+        display: none !important;
+      }
+    }
+  }
+}
+
+.l-col-auto.js-show__snipe__el,
+.l-col-auto.c-show-sell__content {
+  padding-top: 4px;
+}
+
+div[data-tab-id="buy"] .l-col-auto:has(input[type="radio"]:checked),
+div[data-tab-id="sell"] .l-col-auto:has(input[type="radio"]:checked) {
+  transition: 0.3s !important;
+  border-bottom: 2px solid #fff;
+}
+.l-col-auto:has(input[type="radio"]) {
+  transition: 0.3s !important;
+  padding-right: 10px;
+  margin-right: 5px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
+}
+
+/* insta buy */
+div[data-tab-id="buy"] .c-switch__input:checked + .c-switch__slider {
+  background: var(--BLUE1);
+  background-image: linear-gradient(
+    170deg,
+    var(--GRADBLUE1),
+    var(--GRADBLUE2) 98%,
+    var(--GRADBLUE3)
+  );
+}
+div[data-tab-id="sell"] .c-switch__input:checked + .c-switch__slider {
+  background: var(--RED1);
+  background-image: linear-gradient(
+    170deg,
+    var(--GRADRED1),
+    var(--GRADRED2) 98%,
+    var(--GRADRED3)
+  );
+}
+
+/* wallet icon & list */
+div[data-tab-id="buy"] .c-wdd__icon {
+  color: var(--COLOR1);
+}
+div[data-tab-id="sell"] .c-wdd__icon {
+  color: var(--COLOR2);
+}
+div[data-tab-id="buy"] .c-checkbox__input:checked + .c-checkbox__inner {
+  background: var(--BLUE1);
+  background-image: linear-gradient(
+    170deg,
+    var(--GRADBLUE1),
+    var(--GRADBLUE2) 98%,
+    var(--GRADBLUE3)
+  );
+}
+div[data-tab-id="sell"] .c-checkbox__input:checked + .c-checkbox__inner {
+  background: var(--RED1);
+  background-image: linear-gradient(
+    170deg,
+    var(--GRADRED1),
+    var(--GRADRED2) 98%,
+    var(--GRADRED3)
+  );
+}
+
+/* BUY presets radio buttons */
+div[data-tab-id="buy"] .p-settings__radio__btn.is-selected {
+  border: 1px solid var(--COLOR1);
+  box-shadow: 0 0 2px 0px var(--COLOR1);
+}
+
+/* SELL presets radio buttons */
+div[data-tab-id="sell"] .p-settings__radio__btn.is-selected {
+  border: 1px solid var(--COLOR2);
+  box-shadow: 0 0 2px 0px var(--COLOR2);
+}
+
+/* BUY amount presets buttons */
+div[data-tab-id="buy"]
+  .c-btn.c-w-form__amount.c-w-form__amount--sm.js-price-form__btn.is-selected {
+  border-color: var(--COLOR1);
+  border: 1px solid var(--COLOR1);
+  box-shadow: 0 0 5px 0px var(--COLOR1);
+  color: #eee !important;
+  transition: 0.3s ease;
+}
+
+div[data-tab-id="buy"]
+  .c-btn.c-w-form__amount.c-w-form__amount--sm.js-price-form__btn {
+  transition: 0.2s;
+}
+
+/* SELL amount presets buttons */
+div[data-tab-id="sell"]
+  .c-btn.c-w-form__amount.c-w-form__amount--sm.js-price-form__btn.is-selected {
+  border-color: var(--COLOR2);
+  box-shadow: 0 0 4px 0px var(--COLOR2);
+  color: #eee !important;
+  transition: 0.3s ease;
+}
+
+div[data-tab-id="sell"]
+  .c-btn.c-w-form__amount.c-w-form__amount--sm.js-price-form__btn {
+  transition: 0.2s;
+}
+
+/* BUY custom amount */
+div[data-tab-id="buy"] .c-w-form__amount__field.is-selected {
+  border-color: var(--COLOR1);
+  box-shadow: 0 0 4px 1px var(--COLOR1);
+  transition: 0.3s ease;
+}
+
+div[data-tab-id="buy"] .c-w-form__amount__field {
+  transition: 0.2s;
+}
+
+/* SELL custom amount */
+div[data-tab-id="sell"] .c-w-form__amount__field.is-selected {
+  border-color: var(--COLOR2);
+  box-shadow: 0 0 4px 0px var(--COLOR2);
+  transition: 0.3s ease;
+}
+
+div[data-tab-id="sell"] .c-w-form__amount__field {
+  transition: 0.2s;
+}
+
+/* execute BUY button */
+button.js-show__trade-form__submit.js-buy-btn:hover,
+.js-tabs__tab.is-selected[data-tab-id="buy"]:hover {
+  filter: brightness(1.12);
+  transition: 0.3s ease;
+  box-shadow: 0 0 4px 1px var(--COLOR1);
+}
+
+/* execute SELL button */
+button.js-show__trade-form__submit.js-sell-btn:hover,
+.js-tabs__tab.is-selected[data-tab-id="sell"]:hover {
+  filter: brightness(1.12);
+  transition: 0.3s ease;
+  box-shadow: 0 0 4px 1px var(--COLOR2);
+}
+
+/* BUY tab buttons */
+div[data-tab-id="buy"] .p-settings__radio__btn,
+div[data-tab-id="buy"] .c-btn.c-w-form__amount,
+div[data-tab-id="buy"] .c-field,
+div[data-tab-id="buy"] .c-btn,
+div[data-tab-id="buy"] .c-wdd__toggle,
+.c-inline-toggle {
+  border-radius: 8px !important;
+}
+
+/* SELL tab buttons */
+div[data-tab-id="sell"] .p-settings__radio__btn,
+div[data-tab-id="sell"] .c-btn.c-w-form__amount,
+div[data-tab-id="sell"] .c-field,
+div[data-tab-id="sell"] .c-btn,
+div[data-tab-id="sell"] .c-wdd__toggle,
+.c-inline-toggle {
+  border-radius: 8px !important;
+}
+
+/* bonding curve progress bar */
+.p-show__progress {
+  overflow: visible !important;
+  .p-show__progress__inner.js-curve__bar {
+    box-shadow: 0px 0px 4px 1px var(--COLOR1);
+  }
+}

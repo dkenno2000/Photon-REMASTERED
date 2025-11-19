@@ -1,0 +1,703 @@
+/*********************************************/
+/*************** MODERN THEME ****************/
+/*********************************************/
+
+html {
+  scrollbar-color: #444 #222222 !important;
+  scrollbar-width: thin !important;
+}
+
+body * {
+  scrollbar-color: #444 #22222222 !important;
+  scrollbar-width: thin !important;
+}
+
+:root {
+  --PURPLE-ORIG: #6a60e8; /* original purple */
+  --COLOR1: #5b74bf; /* modern purple/blue */
+  --COLOR2: #845aa8; /* modern purple/red - used instead of red gradient */
+
+  --BLUE1: #6a60e8;
+  --GRADBLUE1: rgba(92, 177, 162, 0.5);
+  --GRADBLUE2: rgba(31, 46, 105, 0.4);
+  --GRADBLUE3: rgba(11, 10, 10, 0.75);
+
+  --RED1: #6a60e8;
+  --GRADRED1: rgba(170, 79, 73, 0.5);
+  --GRADRED2: rgba(170, 79, 73, 0.1);
+  --GRADRED3: rgba(11, 10, 10, 0.75);
+
+  --GREEN-TEXT: #9edbd7;
+  --RED-TEXT: #edb0be;
+}
+
+html {
+  background: linear-gradient(rgb(35, 35, 42) -200%, rgb(40 41 53) 150%) !important;
+  background-attachment: fixed !important;
+  filter: saturate(1.1) contrast(1.1) brightness(108%) !important;
+}
+
+.c-header__inner.js-login-wrapper { backdrop-filter: none !important; }
+
+body,
+.c-body,
+.page-memescope-index body:has(.c-header),
+.a_QSs8c6hERrvPdAsO6Xh, .w_qoFTK0HzVHmF5raMNN {
+  background: none !important;
+}
+
+/* widgets */
+.c-header__inner, .p-show__topbar, .p-show__widget,
+.ejjKbdNh3POw8t54UlOS, .VTmpJ0jdbJuSJQ4HKGlN:nth-child(1n),
+.DMdO1uKlvJOWOV2e4nDO, ._QSs8c6hERrvPdAsO6Xh {
+  background: none !important;
+  background: rgba(30, 30, 30, 0.66) !important;
+}
+
+/* widgets border */
+.p-show__widget, .ejjKbdNh3POw8t54UlOS {
+  box-shadow: none;
+  border: 1px solid #cccccc22;
+}
+
+
+/*********************************************/
+/******************* HEADER ******************/
+/*********************************************/
+
+.c-header__inner,
+.p-show__topbar {
+  box-shadow: none !important;
+  border-top: none !important;
+}
+
+/* watchlist */
+.p-show__topbar.js-watching-bar {
+  height: 30px;
+  font-size: 11px;
+}
+
+/* watching text */
+.l-col-auto.u-d-flex.u-align-items-center.u-pr-3xs.u-font-semibold.u-color-dark.u-text-uppercase {
+  font-size: 0;
+}
+
+/* search field */
+.c-autocomplete_wrapper > input {
+  height: 26px;
+  border-radius: 8px;
+  font-size: 11px;
+  text-align: center;
+}
+
+/* search results */
+.c-autocomplete_wrapper > [role="listbox"] > [role="option"] {
+  font-size: 10px;
+  .u-font-size-xxs {
+    font-size: 10px;
+  }
+}
+
+.c-autocomplete__title {
+  font-size: 12px;
+}
+
+/* search results titles */
+.l-row.l-row-gap--xxs.u-align-items-center:has(.l-col-auto.c-autocomplete__title) {
+    padding-bottom: 10px;
+}
+
+.c-autocomplete_wrapper > [role="listbox"] {
+    background: rgb(33 33 36 / 92%) !important;
+}
+
+/*********************************************/
+/****************** MEMESCOPE ****************/
+/*********************************************/
+
+/* container titles (new, about, grad) */
+.G3nWYwyOTPi2QhQqDOSG {
+  font-size: 12px;
+  color: #8d93b7 !important;
+}
+
+/* container headers */
+.ejjKbdNh3POw8t54UlOS {
+  border-radius: 8px 8px 0 0;
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+}
+
+/* container headers */
+.Q_H0B8aMnzXuRM9bV30R {
+  border-top: none !important;
+}
+
+/* container headers */
+.IkXVawB0ALMCnMdJvOFY {
+  border-left: none !important;
+}
+
+/* memescope & other pages header buttons */
+.l-row.u-align-items-center.u-mb-xxs *,
+.l-row.l-row-gap--s.u-flex-row-gap-s.u-align-items-center.u-d-none.u-d-flex-lg
+  * {
+  font-size: 11px;
+}
+
+/* wallet and toggle */
+.c-wdd__icon {
+  color: var(--COLOR1);
+}
+
+/* quick buy toggle button */
+.c-btn.c-btn--s.u-px-m,
+.c-checkbox__input:checked + .c-checkbox__inner,
+.G2Lwh1DegZ1HYfQDzXeg:checked + .BxqWo0gq5SLEpR86OYPC {
+  background: var(--COLOR1) !important;
+}
+
+/* quick buy amount */
+.c-field {
+  border-radius: 8px !important;
+}
+
+/* preset select buttons */
+.c-inline-toggle {
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* filters popup */
+.c-dropdown__popup__inner {
+  background: #1b1b1bd8 !important;
+  backdrop-filter: blur(6px) !important;
+  .c-btn.c-btn--sm.c-btn--purple {
+    background: var(--COLOR1) !important;
+  }
+}
+
+/*********************************************/
+/***************** PUMP CARDS ****************/
+/*********************************************/
+
+.VTmpJ0jdbJuSJQ4HKGlN:nth-child(1n) {;
+  margin-top: 3px !important;
+  border-radius: 8px !important;
+  aborder: 1px solid rgba(150, 150, 150, 0.15);
+  box-shadow: none;
+  transition: 0.2s ease;
+}
+
+/* hover green border */
+.VTmpJ0jdbJuSJQ4HKGlN:nth-child(1n):hover {
+  /*background: rgba(50,50,50,0.15);*/
+  border: 1px solid rgba(79, 238, 228, 0.3);
+  transition: 0s;
+}
+
+/* pump progress */
+.SwgVgWT3aTTmKeQxZep4.hKnDKRk0q7zBzvj5sQ10,
+.SwgVgWT3aTTmKeQxZep4 {
+  /*display: none !important;*/
+  box-shadow: 0px 0px 6px 0px #918ae5 !important;
+}
+
+/* card links */
+.a5Veqi8rbLopJLS986F8.u-d-flex.u-align-items-center
+  .D05u1bw1k0YiV6GK94gQ.u-ml-xxs
+  .IrSOk2x9Sg3QrXngRC6Q {
+  transition: 0.2s;
+}
+.a5Veqi8rbLopJLS986F8.u-d-flex.u-align-items-center
+  .D05u1bw1k0YiV6GK94gQ.u-ml-xxs
+  .IrSOk2x9Sg3QrXngRC6Q:hover {
+  color: #fff !important;
+  fill: #fff !important;
+}
+
+/* quickbuy button */
+.WONu4jRBwJmFo3FD6XwP.c-btn.c-btn--lt.u-px-xs {
+  width: 135px;
+  background: rgba(255, 255, 255, 0.06);
+  height: 36px;
+  scale: 0.95;
+  transition: 0.2s ease;
+}
+
+.WONu4jRBwJmFo3FD6XwP.c-btn.c-btn--lt.u-px-xs .u-w-100 {
+  padding-left: 25%;
+}
+
+/* quickbuy button hover */
+.WONu4jRBwJmFo3FD6XwP.c-btn.c-btn--lt.u-px-xs:hover {
+  background: var(--COLOR1);
+  /*background: var(--BLUE1);
+  background-image: linear-gradient( 170deg, var(--GRADBLUE1), var(--GRADBLUE2) 98%, var(--GRADBLUE3) );
+  transition: 0.15s ease;*/
+}
+
+/* pump card date */
+span.PexxssXyjdhtFKu0KhLw {
+  scale: 0.9;
+}
+
+/* card text */
+.C8bRZSYiaejTMAZ7N1b2.l-col-12.l-col-sm-auto:nth-child(1) span,
+.C8bRZSYiaejTMAZ7N1b2.l-col-12.l-col-sm-auto:nth-child(1) div {
+  scale: 0.96;
+}
+
+/* card text - right side */
+.C8bRZSYiaejTMAZ7N1b2:nth-child(2) .l-row.no-gutters-sm.u-font-size-xxs {
+  scale: 0.96;
+}
+
+/* image */
+.vGEynuWTSwDcOmw9G8zx {
+  border-radius: 8px !important;
+}
+
+/*********************************************/
+/****************** TERMINAL *****************/
+/*********************************************/
+
+.p-show__widget--table,
+.c-grid-table--show .c-grid-table__tr:nth-child(2n + 1),
+.c-grid-table--show .c-grid-table__tr:nth-child(2n) {
+  background: none !important;
+}
+
+.c-inline-toggle,
+.c-grid-table--show .c-grid-table__th:first-child {
+  background: none !important;
+}
+
+/* watched token button */
+.c-btn.c-btn--lt.p-show__watch.js-watch-btn {
+  padding: 0 25px 0 20px !important;
+  border-radius: 6px !important;
+  scale: 0.88;
+}
+
+.c-btn.c-btn--lt.p-show__watch.js-watch-btn:has([data-icon="star-solid"]) {
+  background: var(--COLOR1) !important;
+}
+
+/* tab titles (transactions, holders, orders,...) */
+.Baij3c8abbY_PzZUTQMw {
+  font-size: 12px !important;
+}
+
+/* tables head */
+.c-trades-table__thead.c-grid-table__head {
+  .c-grid-table__th {
+    font-size: 12px;
+  }
+  .c-grid-table__toggle {
+    scale: 0.9;
+  }
+  button.c-icon {
+    scale: 0.75;
+  }
+}
+
+/* table row */
+.c-trades-table__td {
+  padding: 10px !important;
+  font-size: 13px !important;
+  .u-font-size-s {
+    font-size: 13px !important;
+  }
+  .u-font-size-xxs {
+    font-size: 10px !important;
+  }
+
+  /* percentage progress bar */
+  .b134KVEylAATCtZmCZ9N {
+    height: 4px !important;
+    overflow: clip !important;
+    overflow-clip-margin: 4px;
+    .kCwvd5TAh9QiXRP51TBw {
+      background: var(--COLOR1) !important;
+      box-shadow: 0px 0px 4px 1px #918ae5;
+    }
+  }
+}
+
+/* shrimp icons */
+.u-pointer.c-icon.c-icon--xs.u-mr-3xs {
+  filter: grayscale(80%);
+  scale: 0.7;
+}
+
+/* shrimp icon popup */
+.OYfos9F1qAI8wdmn9w6S {
+  background: rgb(0, 0, 10, 0.5);
+  backdrop-filter: blur(4px);
+  box-shadow: 0 0 8px 0 rgba(145, 138, 229, 0.2);
+}
+
+/* TXNS icon */
+.c-icon.u-color-dark-dk.c-icon--xxs.u-pointer,
+.c-icon.c-icon--solscan.c-task-table__icon,
+.c-icon.c-icon--solana-fm.c-icon--xxs {
+  scale: 0.75;
+}
+
+.top-trader-profile-links svg {
+  height: 20px;
+  margin-left: 3px;
+  scale: 1.5;
+}
+
+/* DEV tokens tab */
+.WZwjYYyU7o6QykWxvjDH img {
+  border-radius: 6px;
+  scale: 0.75;
+}
+
+/* all white table text */
+.u-color-light-alt,
+.u-color-light-lt,
+.c-grid-table__tr__inner,
+.u-d-inline-flex.u-align-items-center,
+.c-indx-table__cell--white {
+  color: #dfdfdf !important;
+}
+
+/* red & green text */
+.u-color-green,
+.c-trades-table__tr--buy .c-trades-table__td,
+.c-indx-table__cell--green {
+  color: var(--GREEN-TEXT) !important;
+}
+.u-color-red,
+.p-show__widget__issues,
+.c-trades-table__tr--sell .c-trades-table__td,
+.c-indx-table__cell--red {
+  color: var(--RED-TEXT) !important;
+}
+
+/*********** TOP 100 HOLDERS CHARTS **********/
+
+.holders-popup1,
+.holders-popup2 {
+  background: rgb(33 33 36 / 70%) !important;
+  box-shadow: rgba(40, 40, 50, 0.66) 0px 0px 26px 4px !important;
+}
+
+
+/*********************************************/
+/***************** RIGHT MENU ****************/
+/*********************************************/
+
+/*** CARD CONTAINERS ***/
+
+/* BUY tab button */
+.js-tabs__tab.is-selected[data-tab-id="buy"],
+button.js-show__trade-form__submit.js-buy-btn,
+button.js-show__buy-order__submit {
+  background: var(--BLUE1);
+  background-image: linear-gradient(
+    170deg,
+    var(--GRADBLUE1),
+    var(--GRADBLUE2) 98%,
+    var(--GRADBLUE3)
+  );
+  border-radius: 8px 0 0 0;
+  transition: 0.4s;
+}
+
+.p-show__widget__tab.js-tabs__tab:not(.is-selected)[data-tab-id="buy"],
+.c-icon.c-icon--tag.p-show__widget__tab__icon {
+  color: #a9b0d7;
+  transition: 0.3s ease;
+}
+
+button.js-show__trade-form__submit.js-buy-btn {
+  height: 40px;
+  border-radius: 6px !important;
+}
+
+/* SELL button */
+.js-tabs__tab.is-selected[data-tab-id="sell"],
+button.js-show__trade-form__submit.js-sell-btn,
+button.js-show__sell-order__submit {
+  background: var(--RED1);
+  background-image: linear-gradient(
+    170deg,
+    var(--GRADRED1),
+    var(--GRADRED2) 98%,
+    var(--GRADRED3)
+  );
+  border-radius: 0 8px 0 0;
+  transition: 0.4s;
+}
+
+.p-show__widget__tab.js-tabs__tab:not(.is-selected)[data-tab-id="sell"],
+.c-icon.c-icon--tag.p-show__widget__tab__icon {
+  color: #a9b0d7;
+  transition: 0.3s ease;
+}
+
+button.js-show__trade-form__submit.js-sell-btn {
+  height: 40px;
+  border-radius: 6px !important;
+}
+
+/* order select radio buttons */
+.l-row.l-row-gap--s.c-w-form__radio-group,
+.l-row.l-row-gap--xxs.c-w-form__radio-group {
+  padding: 6px 0 6px 0;
+  .l-col-auto {
+    cursor: default !important;
+    label {
+      cursor: pointer !important;
+      padding: 4px 0 4px 0;
+      .c-checkbox__inner.c-checkbox__inner--rounded {
+        display: none !important;
+      }
+    }
+  }
+}
+
+.l-col-auto.js-show__snipe__el,
+.l-col-auto.c-show-sell__content {
+  padding-top: 4px;
+}
+
+div[data-tab-id="buy"] .l-col-auto:has(input[type="radio"]:checked),
+div[data-tab-id="sell"] .l-col-auto:has(input[type="radio"]:checked) {
+  transition: 0.3s !important;
+  border-bottom: 2px solid #fff;
+}
+.l-col-auto:has(input[type="radio"]) {
+  transition: 0.3s !important;
+  padding-right: 10px;
+  margin-right: 5px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
+}
+
+/* insta buy */
+div[data-tab-id="buy"] .c-switch__input:checked + .c-switch__slider {
+  background: var(--BLUE1);
+  background-image: linear-gradient(
+    170deg,
+    var(--GRADBLUE1),
+    var(--GRADBLUE2) 98%,
+    var(--GRADBLUE3)
+  );
+}
+div[data-tab-id="sell"] .c-switch__input:checked + .c-switch__slider {
+  background: var(--RED1);
+  background-image: linear-gradient(
+    170deg,
+    var(--GRADRED1),
+    var(--GRADRED2) 98%,
+    var(--GRADRED3)
+  );
+}
+
+/* wallet icon & list */
+div[data-tab-id="buy"] .c-wdd__icon {
+  color: var(--COLOR1);
+}
+div[data-tab-id="sell"] .c-wdd__icon {
+  color: var(--COLOR2);
+}
+div[data-tab-id="buy"] .c-checkbox__input:checked + .c-checkbox__inner {
+  background: var(--BLUE1);
+  background-image: linear-gradient(
+    170deg,
+    var(--GRADBLUE1),
+    var(--GRADBLUE2) 98%,
+    var(--GRADBLUE3)
+  );
+}
+div[data-tab-id="sell"] .c-checkbox__input:checked + .c-checkbox__inner {
+  background: var(--RED1);
+  background-image: linear-gradient(
+    170deg,
+    var(--GRADRED1),
+    var(--GRADRED2) 98%,
+    var(--GRADRED3)
+  );
+}
+
+/* BUY presets radio buttons */
+div[data-tab-id="buy"] .p-settings__radio__btn.is-selected {
+  border: 1px solid var(--COLOR1);
+  box-shadow: 0 0 2px 0px var(--COLOR1);
+}
+
+/* SELL presets radio buttons */
+div[data-tab-id="sell"] .p-settings__radio__btn.is-selected {
+  border: 1px solid var(--COLOR2);
+  box-shadow: 0 0 2px 0px var(--COLOR2);
+}
+
+/* BUY amount presets buttons */
+div[data-tab-id="buy"]
+  .c-btn.c-w-form__amount.c-w-form__amount--sm.js-price-form__btn.is-selected {
+  border-color: var(--COLOR1);
+  border: 1px solid var(--COLOR1);
+  box-shadow: 0 0 5px 0px var(--COLOR1);
+  color: #eee !important;
+  transition: 0.3s ease;
+}
+
+div[data-tab-id="buy"]
+  .c-btn.c-w-form__amount.c-w-form__amount--sm.js-price-form__btn {
+  transition: 0.2s;
+}
+
+/* SELL amount presets buttons */
+div[data-tab-id="sell"]
+  .c-btn.c-w-form__amount.c-w-form__amount--sm.js-price-form__btn.is-selected {
+  border-color: var(--COLOR2);
+  box-shadow: 0 0 4px 0px var(--COLOR2);
+  color: #eee !important;
+  transition: 0.3s ease;
+}
+
+div[data-tab-id="sell"]
+  .c-btn.c-w-form__amount.c-w-form__amount--sm.js-price-form__btn {
+  transition: 0.2s;
+}
+
+/* BUY custom amount */
+div[data-tab-id="buy"] .c-w-form__amount__field.is-selected {
+  border-color: var(--COLOR1);
+  box-shadow: 0 0 4px 1px var(--COLOR1);
+  transition: 0.3s ease;
+}
+
+div[data-tab-id="buy"] .c-w-form__amount__field {
+  transition: 0.2s;
+}
+
+/* SELL custom amount */
+div[data-tab-id="sell"] .c-w-form__amount__field.is-selected {
+  border-color: var(--COLOR2);
+  box-shadow: 0 0 4px 0px var(--COLOR2);
+  transition: 0.3s ease;
+}
+
+div[data-tab-id="sell"] .c-w-form__amount__field {
+  transition: 0.2s;
+}
+
+/* execute BUY button */
+button.js-show__trade-form__submit.js-buy-btn:hover,
+.js-tabs__tab.is-selected[data-tab-id="buy"]:hover {
+  filter: brightness(1.12);
+  transition: 0.3s ease;
+  box-shadow: 0 0 4px 1px var(--COLOR1);
+}
+
+/* execute SELL button */
+button.js-show__trade-form__submit.js-sell-btn:hover,
+.js-tabs__tab.is-selected[data-tab-id="sell"]:hover {
+  filter: brightness(1.12);
+  transition: 0.3s ease;
+  box-shadow: 0 0 4px 1px var(--COLOR2);
+}
+
+/* BUY tab buttons */
+div[data-tab-id="buy"] .p-settings__radio__btn,
+div[data-tab-id="buy"] .c-btn.c-w-form__amount,
+div[data-tab-id="buy"] .c-field,
+div[data-tab-id="buy"] .c-btn,
+div[data-tab-id="buy"] .c-wdd__toggle,
+.c-inline-toggle {
+  border-radius: 8px !important;
+}
+
+/* SELL tab buttons */
+div[data-tab-id="sell"] .p-settings__radio__btn,
+div[data-tab-id="sell"] .c-btn.c-w-form__amount,
+div[data-tab-id="sell"] .c-field,
+div[data-tab-id="sell"] .c-btn,
+div[data-tab-id="sell"] .c-wdd__toggle,
+.c-inline-toggle {
+  border-radius: 8px !important;
+}
+
+/* bonding curve progress bar */
+.p-show__progress {
+  overflow: visible !important;
+  .p-show__progress__inner.js-curve__bar {
+    background: var(--COLOR1);
+    background-image: linear-gradient(
+      170deg,
+      var(--GRADBLUE1),
+      var(--GRADBLUE2) 98%,
+      var(--GRADBLUE3)
+    );
+    box-shadow: 0px 0px 4px 1px var(--COLOR1);
+  }
+}
+
+/*********************************************/
+/**************** OTHER PAGES ****************/
+/*********************************************/
+
+/* trending cards */
+.c-grid-table--index:not([data-is-mobile]) .c-grid-table__tr:nth-child(2n + 1),
+.c-grid-table--index:not([data-is-mobile])
+  .c-grid-table__tr:nth-child(2n + 1)
+  .c-grid-table__td:first-child,
+.c-grid-table--index:not([data-is-mobile])
+  .c-grid-table__tr:nth-child(2n + 1)
+  .c-grid-table__td:last-child,
+.c-grid-table--index:not([data-is-mobile]) .c-grid-table__tr,
+.c-grid-table--index:not([data-is-mobile])
+  .c-grid-table__tr
+  .c-grid-table__td:first-child,
+.c-grid-table--index:not([data-is-mobile])
+  .c-grid-table__tr
+  .c-grid-table__td:last-child {
+  background: none !important;
+}
+
+/* other pages containers and fixes */
+div[id^="TrendingPageContainer"],
+div[id^="DiscoverPageContainer"],
+div[id^="MyHoldingsPageContainer"],
+div[id^="OrdersPageContainer"] {
+  background-attachment: fixed;
+  .c-grid-table__th,
+  .c-grid-table__th:first-child,
+  .c-grid-table__th:last-child {
+    background: #22222255;
+  }
+  .c-indx-table__cell {
+    font-size: 12px;
+  }
+  .c-grid-table-scroll--my-holdings {
+    background: none !important;
+  }
+}
+
+/* new & trending pairs row hover */
+.c-grid-table--index:not([data-is-mobile]) a.c-grid-table__tr:hover,
+.c-grid-table--index:not([data-is-mobile]) a.c-grid-table__tr:hover .c-grid-table__td:last-child {
+  background: rgba(30, 30, 30, 0.3) !important;
+}
+
+/* new & trending pairs row hover */
+.c-grid-table--index:not([data-is-mobile]) a.c-grid-table__tr:hover .c-grid-table__td:first-child {
+  background: none !important;
+}
+
+/* new & trending pairs row background */
+.c-grid-table--index:not([data-is-mobile]) .c-grid-table__tr:nth-child(1n)
+{
+  background: rgba(30, 30, 30, 0.66) !important;
+}
+
+.pump-modal-content {
+  amargin-top: 10% !important;
+  margin-top: auto !important;
+}
