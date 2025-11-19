@@ -14,7 +14,7 @@ Decided to open source all my previous Chrome extensions. Use the code anyway yo
 <br>
 <br>
 
-NOTE: This is an old release I wrote quite some time ago and since then Photon updated their website, so some of the features don't work correctly anymore. This code is no longer being maintained, because no one uses Photon anymore. The code is provided here fully open source (under GPL-3) 'as is'.
+NOTE: This is an old release I wrote quite some time ago and since then Photon updated their website, so some of the features don't work correctly anymore. This code is no longer being maintained, because no one uses Photon anymore. It's provided here fully open source (under GPL-3) 'as is'.
 
 This extension is built for serious memecoin traders on the [Photon](https://photon-sol.tinyastro.io/) platform. It adds advanced features, smart tools, and real-time insights that help you trade faster, smarter and safer. Packed with everything missing from the default Photon experience.
 
@@ -49,7 +49,7 @@ Uses <b>amCharts5</b> & <b>ChartJS</b> for drawing chart data.
   import am5themes_Animated from "@amcharts/amcharts5/themes/Animated";
 ```
 
-Holder's wallet balances are fetched from drpc.org (displayed in SOL and USD). This extension showed holder's balances a full year before Photon added that feature.
+Holder's wallet balances are fetched from [drpc.org](https://drpc.org) (displayed in SOL and USD). This extension showed holder's balances a full year before Photon added that feature.
 
 <h2 id="started">⚙️ Getting started</h2>
 <h3>Prerequisites</h3>
