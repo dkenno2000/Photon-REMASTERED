@@ -3,9 +3,9 @@
 <p align="center"><b>Adds advanced features and tools to Photon for a better, faster and safer trading experience. Built for serious memecoin traders.</b></p>
 
 <p align="center">
-    <img src="https://lh3.googleusercontent.com/qT_UVS9kE0QYjwpj5qt1A7L9v_aMfijS8s2WqVUPBR4eTdJ4tWGy1yZQpLlubwnL17mc6tg-UFBvbuLUZEImdHMt=s800-w800-h500" width="400px">
-    <img src="https://lh3.googleusercontent.com/iTeRy1uBjU6x_coYF6OGhYyOXt4nbGFQ1DEwJLyndHfAntZQtBbD1rUDcCDnnHckbm6dMl4b-KTGd9UWsdc9YZDZJw=s800-w800-h500" width="400px">
-    <img src="https://lh3.googleusercontent.com/vhl9bFwIOretnBYO6Ov6oehc2qoPNhtR9wh-dC3aVK8wkkOekLYLYM7--D9tJUrij3ENEtdaxMtfpYe4dO2I_WSs1w=s800-w800-h500" width="400px">
+    <img src="https://lh3.googleusercontent.com/qT_UVS9kE0QYjwpj5qt1A7L9v_aMfijS8s2WqVUPBR4eTdJ4tWGy1yZQpLlubwnL17mc6tg-UFBvbuLUZEImdHMt=s800-w800-h500" width="260px">
+    <img src="https://lh3.googleusercontent.com/iTeRy1uBjU6x_coYF6OGhYyOXt4nbGFQ1DEwJLyndHfAntZQtBbD1rUDcCDnnHckbm6dMl4b-KTGd9UWsdc9YZDZJw=s800-w800-h500" width="260px">
+    <img src="https://lh3.googleusercontent.com/vhl9bFwIOretnBYO6Ov6oehc2qoPNhtR9wh-dC3aVK8wkkOekLYLYM7--D9tJUrij3ENEtdaxMtfpYe4dO2I_WSs1w=s800-w800-h500" width="260px">
 </p>
 
 <hr>
