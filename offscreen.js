@@ -1,3 +1,4 @@
+// uses offscreen document to fetch token descriptions
 chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
   if (msg.type === 'parse-html') {
     fetchHtml(msg.url).then(sendResponse);
@@ -42,4 +43,5 @@ async function fetchHtml(url) {
       error: error.message
     };
   }
+
 }
