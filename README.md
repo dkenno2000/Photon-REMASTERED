@@ -14,14 +14,14 @@ Decided to open source all my previous Chrome extensions. Use the code anyway yo
 <br>
 <br>
 
-NOTE: This is an old release I wrote quite some time ago and since then Photon updated their website, so some of the features don't work correctly anymore. This code is no longer being maintained, because no one uses Photon anymore. It's provided here fully open source (under GPL-3) 'as is'.
+<b>NOTE: This is an old release I wrote quite some time ago and since then Photon updated their website, so some of the features don't work correctly anymore. This code is no longer being maintained, because no one uses Photon anymore. It's provided here fully open source (under GPL-3) 'as is'.</b>
 
 This extension is built for serious memecoin traders on the [Photon](https://photon-sol.tinyastro.io/) platform. It adds advanced features, smart tools, and real-time insights that help you trade faster, smarter and safer. Packed with everything missing from the default Photon experience.
 
 <h2 id="releases">💾 Releases</h2>
 
 - <a href="https://chromewebstore.google.com/detail/photon-remastered/fakniobofgpnfgkbidahlmlbokligijf">Download from Chrome Web Store</a>
-- <a href="https://github.com/dkenno2000/Windows-Alerts-for-Photon/releases/download/Photon/alerts_for_photon-v1.1.zip">Download the ZIP from Github</a>
+- <a href="https://github.com/dkenno2000/Photon-REMASTERED/releases/download/Photon/photon-remastered-v1.25.zip">Download the ZIP from Github</a>
 
 <h2 id="features">🚩 Key Features</h2>
 
