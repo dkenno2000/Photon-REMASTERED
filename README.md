@@ -14,7 +14,7 @@ Decided to open source all my previous Chrome extensions. Use the code anyway yo
 <br>
 <br>
 
-<b>NOTE: This is an old release I wrote quite some time ago and since then Photon updated their website, so some of the features don't work correctly anymore. This code is no longer being maintained, because no one uses Photon anymore. It's provided here fully open source (under GPL-3) 'as is'.</b>
+<b>NOTE: </b>This is an old release I wrote quite some time ago and since then Photon updated their website, so some of the features don't work correctly anymore. This code is no longer being maintained, because no one uses Photon anymore. It's provided here fully open source under GPL-3 'as is'.
 
 This extension is built for serious memecoin traders on the [Photon](https://photon-sol.tinyastro.io/) platform. It adds advanced features, smart tools, and real-time insights that help you trade faster, smarter and safer. Packed with everything missing from the default Photon experience.
 
